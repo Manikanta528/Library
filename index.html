@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    
+</head>
 <body>
     <nav>
         <h1>Library</h1>
@@ -16,13 +18,13 @@
     </div>
     <hr>
     <div id="book-adder">
-        <form action="">
+        <form action="" id ="form-book" >
             <label for="title">Book Name :</label>
-            <input type="text" name="title" id="title" placeholder="Book title" required>
+            <input type="text"  id="title" placeholder="Book title" required>
             <label for="title">Author Name :</label>
-            <input type="text" name="author" id="author" placeholder="Author name" required>
+            <input type="text"  id="author" placeholder="Author name" required>
             <label for="pages">No. of Pages :</label>
-            <input type="number" name="pages" id="pages" placeholder="No. of Pages" required>
+            <input type="number" id="pages" placeholder="No. of Pages" required>
             <label>Completed the book :<br>
             <input type="radio" name="read" id="read" value="true" required><label class="radio-label">yes</label>
             <input type="radio" name="read" id="notread" value="false" checked><label class="radio-label">no</label>
@@ -30,10 +32,10 @@
             <input type="submit" id="submit" value="Submit" >
         </form>
     </div>
-    <div class="grid-container">
-
+    <div id="books">
+        
     </div>
-    <script type="text/javascript" src="./script.js" defer></script>
-</head>
+    <script type="text/javascript" src="./script.js" ></script>
+
 </body>
 </html>
